@@ -6,6 +6,8 @@ I build with Java and backend systems while exploring AI-native applications, ag
 
 我更关注把稳定的工程能力与新技术结合进真实场景，做成清晰、可用、可持续维护的系统。
 
+I care about turning solid engineering into clear, useful, maintainable systems.
+
 ## About Me
 
 以 Java / Spring Boot 为主线，关注服务端开发、系统设计与工程化落地。
@@ -17,8 +19,8 @@ I build with Java and backend systems while exploring AI-native applications, ag
 ## Current Focus
 
 - Java 后端工程
-- AI 应用与 LLM 工作流
-- 智能体系统与协作工作流
+- AI 应用与产品化落地
+- 智能体协作与开发工作流
 - 面向真实问题、可持续演进的系统设计
 
 ## Tech Stack
