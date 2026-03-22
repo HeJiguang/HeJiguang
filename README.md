@@ -13,11 +13,16 @@ I build with Java and backend systems while exploring AI-native applications, ag
 
 ## Current Focus
 
-[Focus list]
+- Java 后端工程
+- AI 应用与 LLM 工作流
+- 智能体系统与协作方式
+- 面向真实问题、可持续演进的系统设计
 
 ## Tech Stack
 
-[Tech stack list]
+- 后端：Java / Spring Boot / MySQL / Redis
+- 开发与基础设施：Docker / Git
+- AI 探索：AI Applications / Agent Workflows / Workflow Design
 
 ## Building Next
 
