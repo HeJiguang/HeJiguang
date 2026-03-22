@@ -22,7 +22,7 @@ I build with Java and backend systems while exploring AI-native applications, ag
 
 - 后端：Java / Spring Boot / MySQL / Redis
 - 开发与基础设施：Docker / Git
-- AI 探索：AI Applications / Agent Workflows / Workflow Design
+- AI 探索：AI 应用 / 智能体 / LLM 工作流
 
 ## Building Next
 
