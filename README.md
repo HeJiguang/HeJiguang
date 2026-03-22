@@ -1,6 +1,8 @@
 # HeJiguang
 
-专注于 Java 与后端工程，也在持续扩展到 AI 应用、智能体系统与协作工作流。I build with Java and backend systems while exploring AI-native applications, agent systems, and LLM workflows.
+专注于 Java 与后端工程，也在持续扩展到 AI 应用、智能体系统与协作工作流。
+
+I build with Java and backend systems while exploring AI-native applications, agent systems, and LLM workflows.
 
 我更关注把稳定的工程能力与新技术结合进真实场景，做成清晰、可用、可持续维护的系统。
 
@@ -27,7 +29,7 @@
 
 ## Building Next
 
-- AI-native 的后端工具与效率型应用
+- 面向真实开发场景的 AI-native 后端工具
 - 面向开发流程的智能体协作能力
 - 从工程基础出发的小而有用的产品
 
