@@ -1,21 +1,22 @@
 # HeJiguang
 
-专注于 Java 与后端工程，也在持续扩展到 AI 应用、智能体系统与 LLM 工作流。
-I build with Java and backend systems while exploring AI-native applications, agent systems, and LLM workflows.
+专注于 Java 与后端工程，也在持续扩展到 AI 应用、智能体系统与协作工作流。I build with Java and backend systems while exploring AI-native applications, agent systems, and LLM workflows.
 
 我更关注把稳定的工程能力与新技术结合进真实场景，做成清晰、可用、可持续维护的系统。
 
 ## About Me
 
 以 Java / Spring Boot 为主线，关注服务端开发、系统设计与工程化落地。
-也在持续尝试 AI 应用、智能体协作方式，以及把 LLM 能力接入真实业务流程。
+
+也在持续尝试 AI 应用、智能体协作流程，以及把 LLM 能力接入真实业务流程。
+
 比起追逐概念，我更在意把想法做成稳定、直接、真正能用的产品。
 
 ## Current Focus
 
 - Java 后端工程
 - AI 应用与 LLM 工作流
-- 智能体系统与协作方式
+- 智能体系统与协作工作流
 - 面向真实问题、可持续演进的系统设计
 
 ## Tech Stack
@@ -26,8 +27,10 @@ I build with Java and backend systems while exploring AI-native applications, ag
 
 ## Building Next
 
-[Forward-looking list]
+- AI-native 的后端工具与效率型应用
+- 面向开发流程的智能体协作能力
+- 从工程基础出发的小而有用的产品
 
 ## Contact
 
-[Links or contact items]
+- GitHub: [@HeJiguang](https://github.com/HeJiguang)
