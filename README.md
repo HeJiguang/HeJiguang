@@ -5,9 +5,5 @@
 <h1 align="center">I choose to believe,<br/>I choose to become.</h1>
 
 <p align="center">
-  <img src="./assets/terminal-card.svg" alt="HeJiguang terminal card" width="78%" />
-</p>
-
-<p align="center">
   <sub><a href="https://github.com/HeJiguang">@HeJiguang</a></sub>
 </p>
