@@ -1,0 +1,43 @@
+<svg width="940" height="224" viewBox="0 0 940 224" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="cardBg" x1="54" y1="20" x2="888" y2="212" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0B1021"/>
+      <stop offset="1" stop-color="#0A1528"/>
+    </linearGradient>
+    <linearGradient id="cardStroke" x1="80" y1="48" x2="844" y2="196" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#89FF78" stop-opacity="0.55"/>
+      <stop offset="0.52" stop-color="#5AF3FF" stop-opacity="0.42"/>
+      <stop offset="1" stop-color="#76AFFF" stop-opacity="0.38"/>
+    </linearGradient>
+    <radialGradient id="cardGlow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(782 48) rotate(150) scale(216 128)">
+      <stop stop-color="#5AF3FF" stop-opacity="0.24"/>
+      <stop offset="1" stop-color="#5AF3FF" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="dots" width="16" height="16" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="#DFFFFF" fill-opacity="0.1"/>
+    </pattern>
+  </defs>
+
+  <rect width="940" height="224" rx="24" fill="url(#cardBg)"/>
+  <rect width="940" height="224" rx="24" fill="url(#dots)"/>
+  <rect x="1" y="1" width="938" height="222" rx="23" stroke="url(#cardStroke)"/>
+  <ellipse cx="804" cy="54" rx="214" ry="120" fill="url(#cardGlow)"/>
+
+  <circle cx="34" cy="28" r="5.5" fill="#89FF78"/>
+  <circle cx="54" cy="28" r="5.5" fill="#5AF3FF"/>
+  <circle cx="74" cy="28" r="5.5" fill="#FFC857"/>
+
+  <text x="108" y="33" fill="#D9FFFF" fill-opacity="0.62" font-family="'JetBrains Mono', 'Fira Code', monospace" font-size="13" letter-spacing="1.8">terminal://hejiguang/profile</text>
+
+  <text x="34" y="78" fill="#89FF78" font-family="'JetBrains Mono', 'Fira Code', monospace" font-size="15">&gt; whoami</text>
+  <text x="164" y="78" fill="#F6FFFF" font-family="'JetBrains Mono', 'Fira Code', monospace" font-size="15">HeJiguang</text>
+
+  <text x="34" y="116" fill="#5AF3FF" font-family="'JetBrains Mono', 'Fira Code', monospace" font-size="15">&gt; stack</text>
+  <text x="164" y="116" fill="#E2FFFF" font-family="'JetBrains Mono', 'Fira Code', monospace" font-size="15">java backend / spring boot / ai apps / agents</text>
+
+  <text x="34" y="154" fill="#A8B8FF" font-family="'JetBrains Mono', 'Fira Code', monospace" font-size="15">&gt; status</text>
+  <text x="164" y="154" fill="#E2FFFF" font-family="'JetBrains Mono', 'Fira Code', monospace" font-size="15">building useful things with clean systems and restless curiosity</text>
+
+  <path d="M34 184H906" stroke="#DFFFFF" stroke-opacity="0.08"/>
+  <text x="34" y="206" fill="#DFFFFF" fill-opacity="0.44" font-family="'JetBrains Mono', 'Fira Code', monospace" font-size="12" letter-spacing="1.4">young / hacker-ish / creative / still shipping</text>
+</svg>
