@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  <strong>构建稳定的后端系统，也在延展 AI 应用与智能体工作流。</strong>
+  <strong>做稳定的后端，也做有想象力的 AI 应用。</strong>
 </p>
 
 <p align="center">
@@ -14,17 +14,9 @@
   <code>Agents</code>
 </p>
 
-### // Focus
-
-- Java 后端与工程化
-- AI 应用与产品化落地
-- 智能体协作与开发工作流
-
-### // Building
-
-- 面向真实开发场景的 AI-native 后端工具
-- 面向开发流程的智能体协作能力
-- 小而硬、真正可用的产品与系统
+<p align="center">
+  <sub>Java Backend × AI Applications × Agent Workflows</sub>
+</p>
 
 <p align="center">
   <sub><a href="https://github.com/HeJiguang">github / @HeJiguang</a></sub>

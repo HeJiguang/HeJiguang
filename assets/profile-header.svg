@@ -1,58 +1,93 @@
 <svg width="1200" height="360" viewBox="0 0 1200 360" fill="none" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <linearGradient id="bg" x1="64" y1="40" x2="1100" y2="320" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#05070B"/>
-      <stop offset="0.55" stop-color="#07131D"/>
-      <stop offset="1" stop-color="#081B27"/>
+    <linearGradient id="bg" x1="72" y1="26" x2="1110" y2="330" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0A1024"/>
+      <stop offset="0.46" stop-color="#10265B"/>
+      <stop offset="1" stop-color="#0D7EC7"/>
     </linearGradient>
-    <radialGradient id="glowLeft" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(258 154) rotate(16) scale(360 220)">
-      <stop stop-color="#1EC8FF" stop-opacity="0.28"/>
-      <stop offset="1" stop-color="#1EC8FF" stop-opacity="0"/>
+    <linearGradient id="panel" x1="186" y1="78" x2="654" y2="292" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFFFFF" stop-opacity="0.16"/>
+      <stop offset="1" stop-color="#BCEEFF" stop-opacity="0.04"/>
     </radialGradient>
-    <radialGradient id="glowRight" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(968 134) rotate(160) scale(312 196)">
-      <stop stop-color="#5DF2FF" stop-opacity="0.22"/>
-      <stop offset="1" stop-color="#5DF2FF" stop-opacity="0"/>
+    <radialGradient id="glowLeft" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(234 302) rotate(-22) scale(318 198)">
+      <stop stop-color="#67F0FF" stop-opacity="0.42"/>
+      <stop offset="1" stop-color="#67F0FF" stop-opacity="0"/>
     </radialGradient>
-    <linearGradient id="stroke" x1="169" y1="101" x2="1082" y2="272" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#7DEBFF"/>
-      <stop offset="1" stop-color="#57A5FF"/>
+    <radialGradient id="glowTop" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(932 88) rotate(154) scale(292 174)">
+      <stop stop-color="#8CFFCF" stop-opacity="0.36"/>
+      <stop offset="1" stop-color="#8CFFCF" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowRight" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1034 242) rotate(164) scale(340 202)">
+      <stop stop-color="#48C7FF" stop-opacity="0.34"/>
+      <stop offset="1" stop-color="#48C7FF" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="meshStroke" x1="628" y1="76" x2="1080" y2="282" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#D8FFFF" stop-opacity="0.76"/>
+      <stop offset="1" stop-color="#85D2FF" stop-opacity="0.22"/>
+    </linearGradient>
+    <linearGradient id="lineStroke" x1="98" y1="238" x2="1100" y2="104" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#8BFCFF"/>
+      <stop offset="0.5" stop-color="#B6FFE5"/>
+      <stop offset="1" stop-color="#76C9FF"/>
     </linearGradient>
     <filter id="softBlur" x="-40%" y="-40%" width="180%" height="180%">
       <feGaussianBlur stdDeviation="18"/>
     </filter>
-    <pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse">
-      <path d="M48 0H0V48" stroke="#82DFFF" stroke-opacity="0.08"/>
+    <pattern id="grid" width="44" height="44" patternUnits="userSpaceOnUse">
+      <path d="M44 0H0V44" stroke="#D7F8FF" stroke-opacity="0.08"/>
+    </pattern>
+    <pattern id="dots" width="20" height="20" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.4" fill="#D9FFFF" fill-opacity="0.18"/>
     </pattern>
   </defs>
 
   <rect width="1200" height="360" rx="28" fill="url(#bg)"/>
   <rect width="1200" height="360" rx="28" fill="url(#grid)"/>
-  <rect x="20" y="20" width="1160" height="320" rx="22" stroke="#8EEBFF" stroke-opacity="0.18"/>
-  <rect x="34" y="34" width="1132" height="292" rx="18" stroke="#8EEBFF" stroke-opacity="0.08"/>
+  <rect width="1200" height="360" rx="28" fill="url(#dots)"/>
+  <rect x="22" y="22" width="1156" height="316" rx="22" stroke="#C7F7FF" stroke-opacity="0.18"/>
 
-  <ellipse cx="274" cy="142" rx="220" ry="124" fill="url(#glowLeft)"/>
-  <ellipse cx="942" cy="126" rx="224" ry="136" fill="url(#glowRight)"/>
+  <ellipse cx="232" cy="304" rx="282" ry="156" fill="url(#glowLeft)"/>
+  <ellipse cx="944" cy="94" rx="252" ry="140" fill="url(#glowTop)"/>
+  <ellipse cx="1010" cy="248" rx="286" ry="150" fill="url(#glowRight)"/>
 
-  <path d="M822 84C885 102 929 132 959 170C994 214 1040 238 1102 244" stroke="url(#stroke)" stroke-width="2.2" stroke-linecap="round" stroke-opacity="0.72"/>
-  <path d="M708 284C760 258 814 240 870 230C941 216 1004 182 1058 128" stroke="url(#stroke)" stroke-width="1.7" stroke-linecap="round" stroke-opacity="0.44"/>
-  <path d="M744 66L822 84L864 60" stroke="#86F5FF" stroke-opacity="0.38" stroke-width="1.2"/>
-  <path d="M1044 230L1102 244L1134 214" stroke="#86F5FF" stroke-opacity="0.38" stroke-width="1.2"/>
+  <g opacity="0.94">
+    <path d="M720 92L834 118L888 92L1006 136L1098 116" stroke="url(#meshStroke)" stroke-width="1.9" stroke-linecap="round"/>
+    <path d="M668 176L782 144L892 178L1008 160L1114 194" stroke="url(#meshStroke)" stroke-width="1.4" stroke-linecap="round"/>
+    <path d="M724 248L820 224L904 250L1002 228L1088 248" stroke="url(#meshStroke)" stroke-width="1.4" stroke-linecap="round"/>
+    <path d="M834 118V224" stroke="#D8FFFF" stroke-opacity="0.22" stroke-width="1.2"/>
+    <path d="M1006 136V228" stroke="#D8FFFF" stroke-opacity="0.18" stroke-width="1.2"/>
+    <path d="M892 178V250" stroke="#D8FFFF" stroke-opacity="0.14" stroke-width="1.1"/>
+  </g>
 
-  <circle cx="822" cy="84" r="7" fill="#7DEBFF"/>
-  <circle cx="822" cy="84" r="18" fill="#7DEBFF" fill-opacity="0.18" filter="url(#softBlur)"/>
-  <circle cx="960" cy="170" r="8" fill="#68D9FF"/>
-  <circle cx="1102" cy="244" r="7" fill="#60B8FF"/>
-  <circle cx="1058" cy="128" r="5.5" fill="#8DF5FF"/>
+  <circle cx="834" cy="118" r="7" fill="#C9FFFF"/>
+  <circle cx="1006" cy="136" r="8" fill="#9EF5FF"/>
+  <circle cx="892" cy="178" r="6" fill="#ACFFD8"/>
+  <circle cx="1088" cy="248" r="6.5" fill="#7ED7FF"/>
+  <circle cx="1006" cy="136" r="20" fill="#8DF5FF" fill-opacity="0.18" filter="url(#softBlur)"/>
 
-  <path d="M110 88H190" stroke="#8DEBFF" stroke-opacity="0.62" stroke-width="1.5"/>
-  <path d="M110 280H178" stroke="#8DEBFF" stroke-opacity="0.4" stroke-width="1.5"/>
-  <path d="M1012 82H1090" stroke="#8DEBFF" stroke-opacity="0.4" stroke-width="1.5"/>
-  <path d="M1006 282H1090" stroke="#8DEBFF" stroke-opacity="0.62" stroke-width="1.5"/>
+  <g opacity="0.82">
+    <path d="M88 256C182 222 244 214 332 222C428 230 492 214 594 150" stroke="url(#lineStroke)" stroke-width="2.4" stroke-linecap="round"/>
+    <path d="M100 278C214 246 314 248 414 258" stroke="#D8FFFF" stroke-opacity="0.24" stroke-width="1.4" stroke-linecap="round"/>
+  </g>
 
-  <text x="110" y="92" fill="#8DEBFF" fill-opacity="0.78" font-family="'JetBrains Mono', 'Fira Code', monospace" font-size="14" letter-spacing="2.8">SYSTEM PROFILE</text>
-  <text x="110" y="212" fill="#F3FBFF" font-family="'JetBrains Mono', 'Fira Code', monospace" font-size="60" font-weight="700" letter-spacing="5">HEJIGUANG</text>
-  <text x="114" y="248" fill="#9FD6E8" font-family="'JetBrains Mono', 'Fira Code', monospace" font-size="18" letter-spacing="3.4">JAVA BACKEND / AI WORKFLOWS</text>
+  <path d="M100 84H184" stroke="#D9FFFF" stroke-opacity="0.62" stroke-width="1.6"/>
+  <path d="M1000 82H1088" stroke="#D9FFFF" stroke-opacity="0.36" stroke-width="1.5"/>
+  <path d="M1016 278H1092" stroke="#D9FFFF" stroke-opacity="0.6" stroke-width="1.5"/>
 
-  <text x="1006" y="82" fill="#9ADFFF" fill-opacity="0.48" font-family="'JetBrains Mono', 'Fira Code', monospace" font-size="12" letter-spacing="2">COLD STACK</text>
-  <text x="1008" y="302" fill="#A7E8FF" fill-opacity="0.56" font-family="'JetBrains Mono', 'Fira Code', monospace" font-size="12" letter-spacing="2">BUILDING QUIET SYSTEMS</text>
+  <g transform="translate(86 60)">
+    <rect x="0" y="32" width="462" height="184" rx="28" fill="url(#panel)" stroke="#DFFFFF" stroke-opacity="0.2"/>
+    <text x="34" y="74" fill="#D5FBFF" fill-opacity="0.82" font-family="'JetBrains Mono', 'Fira Code', monospace" font-size="14" letter-spacing="3">CREATIVE DEV PROFILE</text>
+    <text x="34" y="138" fill="#FFFFFF" font-family="'Space Grotesk', 'Avenir Next', 'Segoe UI', sans-serif" font-size="62" font-weight="700" letter-spacing="1.5">HeJiguang</text>
+    <text x="36" y="178" fill="#E7FFFF" fill-opacity="0.92" font-family="'Space Grotesk', 'Avenir Next', 'Segoe UI', sans-serif" font-size="20" font-weight="500">Java Backend × AI Applications × Agent Workflows</text>
+    <text x="36" y="210" fill="#D4F7FF" fill-opacity="0.72" font-family="'JetBrains Mono', 'Fira Code', monospace" font-size="14" letter-spacing="1.4">stable systems / curious experiments / useful tools</text>
+  </g>
+
+  <g transform="translate(1036 72)">
+    <path d="M26 0L32 20L52 26L32 32L26 52L20 32L0 26L20 20L26 0Z" fill="#CBFFF0"/>
+    <circle cx="88" cy="20" r="5.5" fill="#D9FFFF"/>
+    <circle cx="58" cy="72" r="4" fill="#8BDFFF"/>
+  </g>
+
+  <text x="1000" y="82" fill="#E0FFFF" fill-opacity="0.48" font-family="'JetBrains Mono', 'Fira Code', monospace" font-size="12" letter-spacing="2">YOUNG / LIGHT / BUILDING</text>
+  <text x="932" y="302" fill="#E0FFFF" fill-opacity="0.58" font-family="'JetBrains Mono', 'Fira Code', monospace" font-size="12" letter-spacing="2">MAKE THINGS REAL</text>
 </svg>
