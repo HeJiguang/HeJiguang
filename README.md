@@ -3,21 +3,17 @@
 </p>
 
 <p align="center">
-  <strong>做稳定的后端，也做有想象力的 AI 应用。</strong>
+  <samp>~/mindset $ I choose to believe, I choose to become.</samp>
 </p>
 
 <p align="center">
-  <code>Java</code>
-  <code>Spring Boot</code>
-  <code>Backend</code>
+  <code>java</code>
+  <code>spring boot</code>
+  <code>backend</code>
   <code>AI</code>
-  <code>Agents</code>
+  <code>agents</code>
 </p>
 
 <p align="center">
-  <sub>Java Backend × AI Applications × Agent Workflows</sub>
-</p>
-
-<p align="center">
-  <sub><a href="https://github.com/HeJiguang">github / @HeJiguang</a></sub>
+  <sub><a href="https://github.com/HeJiguang">@HeJiguang</a> / java backend / ai apps / agent workflows</sub>
 </p>
